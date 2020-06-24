@@ -2,15 +2,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
     android:background="@drawable/loginyaisaiapp"
-    tools:context=".Login">
-
+    tools:context=".Registry">
 
     <TextView
-        android:id="@+id/tv_login"
+        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="55dp"
@@ -18,7 +17,7 @@
         android:textStyle="bold"
         android:gravity="center"
         android:layout_marginTop="150dp"
-        android:text="LOGIN" />
+        android:text="REGISTRY" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,7 +26,7 @@
         android:orientation="vertical">
 
         <EditText
-            android:id="@+id/et_munber"
+            android:id="@+id/editTextTextPersonName"
             android:layout_width="370dp"
             android:layout_height="59dp"
             android:background="@drawable/boder_editextlogin"
@@ -37,7 +36,7 @@
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/et_password"
+            android:id="@+id/editTextTextPersonName2"
             android:layout_width="370dp"
             android:layout_height="59dp"
             android:layout_marginTop="30dp"
@@ -48,7 +47,7 @@
             android:inputType="textPersonName" />
 
         <Button
-            android:id="@+id/bt_login"
+            android:id="@+id/button"
             android:layout_width="150dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
@@ -56,22 +55,9 @@
             android:textColor="#fff"
             android:background="@drawable/boder_editextlogin"
             android:backgroundTint="@color/color"
-            android:text="Login" />
-
-        <TextView
-            android:id="@+id/tv_registry"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="#fff"
-            android:textSize="20dp"
-            android:layout_marginTop="20dp"
-            android:gravity="center"
-            android:text="Registry Now" />
-
+            android:text="REGISTRY" />
 
     </LinearLayout>
-
-
 
 
 </LinearLayout>
